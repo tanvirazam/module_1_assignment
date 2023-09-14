@@ -1,10 +1,9 @@
 <?php 
-$temperature='31°C';
-
-if($temperature<="20°C"){
-    echo "It's freezing!";
-}elseif($temperature>="21°C" && $temperature<="30°C"){
-    echo "It's cool.";
-}elseif($temperature>="31°C"){
-    echo "It's warm.";
+$temperature = 52;
+if ($temperature < 20) {
+    echo "It's freezing!.\n";
+} elseif ($temperature >= 20 && $temperature <= 30) {
+    echo "It's cool.\n";
+} else {
+    echo "It's warm.\n";
 }
